@@ -1,0 +1,3 @@
+# The key of telegram no. 761: the number that stands over each of the 26 columns, from left to right.
+# The column numbered 1 was copied out first, then the column numbered 2, and so on.
+9 8 23 1 13 17 11 24 6 21 7 4 10 15 26 14 18 22 25 12 19 3 20 5 16 2

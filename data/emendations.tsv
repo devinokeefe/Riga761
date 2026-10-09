@@ -1,0 +1,29 @@
+# The 23 letters in which the reading (reading.txt) departs from the telegram as typed. Tab-separated.
+# place: place in the deciphered text, counted from 1; row and column: where that is on the sheet of
+# 26 columns; cipher_place: place of the same letter in the cipher text (telegram761.txt), from 1;
+# typed: the letter on the Polish copy; read: the letter the sense requires; word: the word as read.
+# Each of these letters is clear on the scan, so the mistakes are on the sheet itself.
+place	row	column	cipher_place	typed	read	word
+17	1	17	367	о	с	Семашко
+19	1	19	517	и	м	Семашко
+38	2	12	66	и	й	пользующий
+62	3	10	432	щ	ц	делегации
+117	5	13	200	з	с	Россию
+161	7	5	266	у	ц	двадцать
+204	8	22	51	и	м	врачебным
+229	9	21	396	в	б	области
+241	10	7	226	и	м	время
+255	10	21	397	л	и	начальником
+275	11	15	548	е	э	эвакпункта
+276	11	16	292	е	в	эвакпункта
+349	14	11	143	о	с	ручаются
+355	14	17	380	о	р	товарищи
+358	14	20	252	л	и	товарищи
+376	15	12	79	с	е	честного
+402	16	12	80	о	е	сочувствующего
+408	16	18	467	б	в	Соввласти
+420	17	4	17	с	о	Сообщите
+438	17	22	60	ч	г	его
+461	18	19	534	с	о	Наркомздрав
+511	20	17	386	ь	ъ	подъемные
+548	22	2	173	о	а	Ваше

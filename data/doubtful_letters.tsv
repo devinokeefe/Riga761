@@ -1,0 +1,10 @@
+# Letters of telegram761.txt that are doubtful on the scan. Tab-separated.
+# cipher_place: place in the cipher text, counted from 1. line, group: typed line of cipher text and group in it.
+# as_read: the letter in telegram761.txt. could_be: the other possible reading, if there is one.
+cipher_place	line	group	as_read	could_be	note
+31	2	1	и	н	faint; the diagonal stroke shows only under strong magnification
+74	2	9	н	и	smudged
+94	3	4	н	и	heavily inked
+344	8	9	н	и	pen strokes across the letter
+383	9	8	н	и	pen strokes across the letter
+500	12	4	т		a horizontal stroke runs through the letter; kept, because the telegram counts 558 letters with it

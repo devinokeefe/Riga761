@@ -1,0 +1,27 @@
+Controls for the search (10 starts of 200000 steps each time)
+
+== 1. Planted keys, width known
+The six control texts score -2.116 on average as they stand (mean log-probability per trigram) and -2.461
+with 23 letters replaced. Entries: how many of the 10 starts ended on the planted key.
+
+text    width 16  width 21  width 26  width 31  width 36  width 41
+   1          10         9         9         7         2         0
+   2          10        10         9         8         0         0
+   3          10        10        10        10         2         3
+   4          10        10         9        10         1         0
+   5          10         9        10        10         2         1
+   6          10         9        10        10         6         2
+texts        6/6       6/6       6/6       6/6       5/6       3/6
+
+== 2. Planted keys, width not known (every width from 2 to 35 searched)
+text  planted width  best width   score  next best width   score
+   1             21          21  -2.449               28  -3.718
+   3             26          26  -2.434               30  -4.048
+   5             31          31  -2.496               35  -3.966
+
+== 3. Nothing to find
+The letters of the telegram in random order, searched at width 26, 5 times:
+best score -4.291, worst -4.396
+
+== 4. The first transcription
+width 26: score -3.091, found by 6 of 10 starts; the key is the same as data/key.txt: yes

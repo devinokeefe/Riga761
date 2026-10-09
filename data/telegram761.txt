@@ -1,0 +1,27 @@
+# Telegram no. 761, Riga to Moscow, dated 4 February 1921 and sent on 5 February at 10:15. Cipher "Перекоп".
+#
+# Source: Warsaw, Centralne Archiwum Wojskowe (Wojskowe Biuro Historyczne), Oddział II NDWP, I.301.8.663, part 1,
+# page 21 of the PDF. A typed copy made by the Polish Cipher Bureau from the intercepted radiogram.
+# Transcribed from the scan. One line here is one typed line of the sheet, in groups as typed. 558 letters.
+#
+# What is on the sheet around the cipher text (the typist uses a capital I for the figure 1):
+#     I.
+#     Изъ  Риги М.Д. 267 5/II 10-15 Тов.Чичерину.Перекопъ одинъ
+#     ноль пять восемь стопъ [here the cipher text begins, on the same line]
+#     [the last line of cipher text] 50558 Іоффе
+#     4/II 1921 года № 761.
+#
+# Six letters are doubtful on the scan: see doubtful_letters.tsv.
+нодве рдвов еафот усьхд неррм пнйтп
+итчиа патих очоко ласск илккр иаосч дденр иивок гмчнг
+ееясо оустр ехмди обзнс масоз еипан ажмюа ивутв квсем
+юкуту уымад иихрч иемйо ижочщ сбвад илчор рувык ваахе
+локяб хтода ниенд беарк юносч нибев асхыз оояаы онттс
+ггвль акзеф тотом инедч етщси окгаи йепзт нонув тлели
+мента леиха усррз зррив онфиа схроз юмпак чеыла оссаа
+дхвог рсндв тнхап отолх упвви иеяоп стхтс закхр веснр
+ьлчаб авоеу риучс бармр ооури херчо ааеуо гонре ьншкв
+лоаиы влнхь клаез зыоов антои иаото бквто разуз щщдхт
+рраок нотию ежхдз седгл неаей лкзчи обыкв еаяпй оеюал
+топрх гичст оохшо угрьт ьехяд шхасв илдво линиж аткбх
+ьпдищ чвлсы мчате аииар саево внхан чоа

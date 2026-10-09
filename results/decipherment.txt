@@ -1,0 +1,84 @@
+Telegram no. 761 deciphered with data/key.txt
+558 letters in 26 columns: 21 full rows and 12 letters; columns 1-12 have 22 letters, the others 21
+
+       9  8 23  1 13 17 11 24  6 21  7  4 10 15 26 14 18 22 25 12 19  3 20  5 16  2
+  1    д  л  я  н  а  р  к  о  м  з  д  р  а  в  а  х  о  е  и  а  ш  к  о  х  в  р
+  2    а  ч  п  о  л  ь  з  у  ю  щ  и  и  с  о  т  р  у  д  н  и  к  о  в  м  и  р
+  3    н  о  й  д  е  л  е  г  а  щ  и  и  х  г  е  о  р  г  и  й  в  л  а  д  и  м
+  4    и  р  о  в  и  ч  ф  р  и  д  х  в  ы  р  а  з  и  л  ж  е  л  а  н  и  е  п
+  5    е  р  е  е  х  а  т  ь  в  х  р  о  з  с  и  ю  х  н  а  п  о  с  т  о  я  н
+  6    н  у  ю  р  а  б  о  т  у  т  ч  к  о  н  и  м  е  е  т  з  а  с  о  б  о  й
+  7    д  в  а  д  у  а  т  ь  т  р  и  г  о  д  а  п  р  а  к  т  и  к  и  з  п  т
+  8    б  ы  л  в  с  в  о  е  в  р  е  м  я  в  р  а  ч  е  б  н  ы  и  и  н  с  п
+  9    е  к  т  о  р  о  м  х  к  а  м  ч  а  т  с  к  о  й  х  о  в  л  а  с  т  и
+ 10    а  в  о  в  р  е  и  я  в  о  й  н  ы  н  а  ч  а  л  ь  н  л  к  о  м  х  т
+ 11    р  а  п  е  з  у  н  д  с  к  о  г  о  х  е  е  а  к  п  у  н  к  т  а  т  ч
+ 12    к  а  р  а  з  р  е  ш  е  н  и  е  н  а  в  ы  е  з  д  в  х  р  о  с  с  и
+ 13    ю  х  х  ф  р  и  д  х  м  о  ж  е  т  п  о  л  у  ч  и  т  ь  и  б  о  з  а
+ 14    н  е  г  о  р  у  ч  а  ю  т  о  я  т  о  в  а  о  и  щ  л  к  а  к  з  а  п
+ 15    о  л  и  т  и  ч  е  с  к  и  ч  с  с  т  н  о  г  о  ч  е  л  о  в  е  к  а
+ 16    с  о  ч  у  в  с  т  в  у  ю  щ  о  г  о  х  с  о  б  в  л  а  с  т  и  х  т
+ 17    ч  к  с  с  о  б  щ  и  т  е  с  о  г  л  а  с  н  ы  л  и  е  ч  о  п  р  и
+ 18    н  я  т  ь  н  а  с  л  у  ж  б  у  в  х  н  а  р  к  с  м  з  д  р  а  в  х
+ 19    и  б  о  х  ф  р  и  д  у  х  в  с  л  у  ч  а  е  в  ы  е  з  д  а  н  е  о
+ 20    б  х  о  д  и  м  о  в  ы  д  а  т  ь  п  о  д  ь  е  м  н  ы  е  з  а  с  ч
+ 21    е  т  х  н  а  р  к  о  м  з  д  р  а  в  а  х  н  а  ч  т  о  н  у  ж  н  о
+ 22    в  о  ш  е  с  о  г  л  а  с  и  е
+
+Against the reading (data/reading.txt): 23 of 558 letters differ (4.1%)
+
+place  row  column  cipher place  typed  read  word
+   17    1      17           367      о     с  Семашко
+   19    1      19           517      и     м  Семашко
+   38    2      12            66      и     й  пользующий
+   62    3      10           432      щ     ц  делегации
+  117    5      13           200      з     с  Россию
+  161    7       5           266      у     ц  двадцать
+  204    8      22            51      и     м  врачебным
+  229    9      21           396      в     б  области
+  241   10       7           226      и     м  время
+  255   10      21           397      л     и  начальником
+  275   11      15           548      е     э  эвакпункта
+  276   11      16           292      е     в  эвакпункта
+  349   14      11           143      о     с  ручаются
+  355   14      17           380      о     р  товарищи
+  358   14      20           252      л     и  товарищи
+  376   15      12            79      с     е  честного
+  402   16      12            80      о     е  сочувствующего
+  408   16      18           467      б     в  Соввласти
+  420   17       4            17      с     о  Сообщите
+  438   17      22            60      ч     г  его
+  461   18      19           534      с     о  Наркомздрав
+  511   20      17           386      ь     ъ  подъемные
+  548   22       2           173      о     а  Ваше
+the same as data/emendations.tsv: yes
+
+Doubtful letters (data/doubtful_letters.tsv) and where they fall
+
+cipher place  as read  could be  place  word in the reading
+          31        и         н    234  области
+          74        н         и    246  войны
+          94        н         и    206  инспектором
+         344        н         и    545  нужно
+         383        н         и    433  согласны
+         500        т              138  работу
+
+The first transcription (data/telegram761_first_transcription.txt) differs in 13 letters
+(cipher place, first reading > final reading): 1 м>н, 27 и>н, 74 и>н, 201 с>о, 203 а>я, 204 о>а, 248 м>н, 344 и>н, 383 и>н, 398 и>н, 441 м>н, 495 е>о, 552 и>н
+Deciphered with the key, it differs from the reading in 36 letters
+
+The check reading (data/telegram761_check_reading.txt) has 558 letters and differs in 0
+
+Commonest letters of the telegram: о 10.0%, а 9.0%, и 7.2%, е 6.8%
+The letter х: 4.3% of the telegram, 1.1% of the text behind the trigram table
+
+In the reading: 114 words, of which 22 are the mark х and 4 are тчк or зпт
+
+Mean log-probability per trigram (nearer zero is more like Russian)
+  the cipher text as it stands             -4.905
+  its letters in random order (20 times)   -5.108
+  deciphered with the key                  -2.962
+  the reading                              -2.708
+  six control texts                        -2.116 (from -2.219 to -1.992)
+
+Rising runs in the key: 13

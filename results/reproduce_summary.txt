@@ -1,0 +1,28 @@
+figure                                                                   documented                         reproduced
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+THE TELEGRAM
+  letters / columns / full rows / letters in the last row                558 / 26 / 21 / 12                 558 / 26 / 21 / 12                 ok
+  letters corrected in the reading                                       23 of 558 (4.1%)                   23 of 558 (4.1%)                   ok
+  the corrections are those of data/emendations.tsv                      yes                                yes                                ok
+  words in the reading / marks х / тчк and зпт                           114 / 22 / 4                       114 / 22 / 4                       ok
+  score: cipher text / its letters in random order                       -4.905 / -5.108                    -4.905 / -5.108                    ok
+  score: deciphered / the reading / control texts                        -2.962 / -2.708 / -2.116           -2.962 / -2.708 / -2.116           ok
+  rising runs in the key                                                 13                                 13                                 ok
+  commonest letters                                                      о 10.0%, а 9.0%, и 7.2%, е 6.8%    о 10.0%, а 9.0%, и 7.2%, е 6.8%    ok
+  the letter х: share of the telegram / of the model text                4.3% / 1.1%                        4.3% / 1.1%                        ok
+  first transcription: letters changed / letters to correct              13 / 36                            13 / 36                            ok
+  check reading: letters / letters that differ                           558 / 0                            558 / 0                            ok
+THE SEARCH
+  best width; score; starts that found it                                26; -2.962; 10 of 10               26; -2.962; 10 of 10               ok
+  next best width; score                                                 33; -4.040                         33; -4.040                         ok
+  the key found is that of data/key.txt                                  yes                                yes                                ok
+CONTROLS
+  control texts: score as they stand / with 23 letters replaced          -2.116 / -2.461                    -2.116 / -2.461                    ok
+  texts whose planted key was found, widths 16 / 21 / 26 / 31 / 36 / 41  6/6 / 6/6 / 6/6 / 6/6 / 5/6 / 3/6  6/6 / 6/6 / 6/6 / 6/6 / 5/6 / 3/6  ok
+  width not known, text 1: planted; best, score; next best, score        21; 21, -2.449; 28, -3.718         21; 21, -2.449; 28, -3.718         ok
+  width not known, text 3: planted; best, score; next best, score        26; 26, -2.434; 30, -4.048         26; 26, -2.434; 30, -4.048         ok
+  width not known, text 5: planted; best, score; next best, score        31; 31, -2.496; 35, -3.966         31; 31, -2.496; 35, -3.966         ok
+  telegram in random order, width 26: best / worst score                 -4.291 / -4.396                    -4.291 / -4.396                    ok
+  first transcription, width 26: score; starts; same key                 -3.091; 6 of 10; yes               -3.091; 6 of 10; yes               ok
+
+21 of 21 figures reproduce
