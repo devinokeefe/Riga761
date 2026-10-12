@@ -114,6 +114,9 @@ NoAutopilot/cipher-lab, el-descifrador/cabinet-noir and aaymeloglu/unsolved-ciph
 unsolved ciphers (cryptiana.web.fc2.com), Klaus Schmeh's blog, the DECODE database (de-crypt.org) and the
 HistoCrypt proceedings from 2018 to 2026 have nothing on this file or these telegrams apart from Grajek's paper.
 
+The search was repeated on 12 October 2026, on the web, GitHub and Zenodo, for the archive file, the doctor's
+name with Joffe, Semashko or Kamchatka, and the Riga telegrams of 1921, and found nothing new.
+
 ## What is new
 
 Some of this was known already. Grajek had described the file, Nowik had shown that the Poles could read the

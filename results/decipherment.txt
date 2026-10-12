@@ -61,7 +61,7 @@ cipher place  as read  could be  place  word in the reading
           94        н         и    206  инспектором
          344        н         и    545  нужно
          383        н         и    433  согласны
-         500        т              138  работу
+         500        т         г    138  работу
 
 The first transcription (data/telegram761_first_transcription.txt) differs in 13 letters
 (cipher place, first reading > final reading): 1 м>н, 27 и>н, 74 и>н, 201 с>о, 203 а>я, 204 о>а, 248 м>н, 344 и>н, 383 и>н, 398 и>н, 441 м>н, 495 е>о, 552 и>н

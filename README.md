@@ -37,9 +37,10 @@ In English:
 > Commissariat's expense, and for that your consent is needed.
 
 That is the whole telegram, 558 letters. The cipher clerk spelled out three full stops and a comma as тчк and
-зпт; the capitals and the rest of the punctuation have been added. The Polish copy also has 23 wrong letters,
-such as оеиашко for Семашко and двадуать for двадцать, which have been put right from the sense. They are all
-listed in [docs/TEXT.md](docs/TEXT.md).
+зпт; the capitals and the rest of the punctuation have been added. In the Polish copy 23 letters do not fit
+their words, such as оеиашко for Семашко and двадуать for двадцать, and they have been corrected from the
+sense. Two of them may be the clerk's spelling rather than mistakes. They are all listed in
+[docs/TEXT.md](docs/TEXT.md).
 
 ## The doctor
 
@@ -56,9 +57,9 @@ There is more in [docs/PEOPLE.md](docs/PEOPLE.md).
 ## How the cipher works
 
 It is a columnar transposition, which means the letters of the message are unchanged and only their order is
-scrambled. The cipher clerk wrote the text in rows of 26 letters under a row of key numbers. He then copied it
+scrambled. The cipher clerk wrote the text in rows of 26 letters under a row of key numbers, then copied it
 out one column at a time, starting with the column numbered 1 and going on to 2, 3 and so on. These are the first
-five of his 22 rows:
+five of the 22 rows:
 
 ```
  9  8 23  1 13 17 11 24  6 21  7  4 10 15 26 14 18 22 25 12 19  3 20  5 16  2
@@ -73,18 +74,20 @@ five of his 22 rows:
 The column under the 1 reads н о д в е, and those are the first five letters on the sheet in the picture:
 `нодве рдвов еафот ...`. Read across, the rows give для наркомздрава х оеиашко х врач пользующии сотрудников
 мирной делегащии х георгий владимирович фрид х выразил желание ... There are no spaces, the clerk has put an х
-before and after each proper name, and the copyist's mistakes are still in.
+before and after each proper name after the first word, and the copyist's mistakes are still in.
 
 ## How it was read
 
 The commonest letters in the telegram are о, а, и and е, in about the proportions of any Russian text, so the
 letters had been moved around but had not been replaced by others. That fits what John Tiltman remembered of the
-Soviet diplomatic telegrams he worked on for the British in 1920, which were in plain columnar transposition.
+Soviet diplomatic telegrams he worked on for the British from August 1920, which were at first in plain
+columnar transposition; from about November a substitution into figures was put in front of it.
 
 The number of columns and the order in which they were copied out still had to be found. The program in
 [code/](code/README.md) tries every width from 2 to 35. At each width it keeps rearranging the columns and holds
-on to the changes that make the rows look more like Russian, which it judges from a table of three-letter
-frequencies counted in Soviet diplomatic documents of the same months.
+on to the changes that make the rows look more like Russian. It judges this by how likely each letter is to
+follow the one before it, and the arrangement it ends with is scored on three-letter sequences; both come from
+a table of three-letter frequencies counted in Soviet diplomatic documents of the same months.
 
 At 26 columns all ten runs of the search come back with the same key, and the text reads from the first word. At
 the other 33 widths nothing readable comes out. On the program's scale, where ordinary Russian prose scores about
@@ -101,13 +104,14 @@ produced nothing readable. The details are in [docs/METHOD.md](docs/METHOD.md).
 - Only this telegram is read. It is the one telegram in the file that is written in letters. The rest are in
   groups of five figures, traffic between Moscow and Riga, Stockholm and Berlin, and they are untouched here.
 - The text comes from a Polish copy of an intercepted radiogram. The Soviet original has not been seen. The copy
-  has 23 wrong letters and six more that are hard to make out on the scan, but no word depends on any of them.
+  has 23 letters that have been corrected and six more that are hard to make out on the scan, but no word
+  depends on any of them.
 - Two groups of figures go with the telegram, 1058 before the text and 50558 after it. The 558 is the letter
   count and the rest is unexplained. If the key was made from a phrase, as was usual, the phrase is unknown.
 - Frid's entries in the Medical List were read from the Russian State Library's OCR text and from an online
-  transcription, because the page images would not load. The 1908 entry is known only from a Google Books
-  snippet.
-- No earlier reading of this telegram turned up in print or online. The Poles may still have read it at the
+  transcription, because the library's viewer would not load the page images in full. The 1908 entry is known
+  only from a Google Books snippet.
+- No earlier reading of this telegram has been found in print or online. The Poles may still have read it at the
   time. Their codebreakers were reading the delegation's telegrams in the autumn of 1920, and a transposition
   like this one was well within their reach. [docs/LITERATURE.md](docs/LITERATURE.md) lists what was searched
   and what could not be consulted.
@@ -120,8 +124,10 @@ python code/reproduce.py
 
 You need Python 3.9 or later and nothing else. A full run takes four to seven minutes on a fast desktop. It
 deciphers the telegram with the key, finds the key again from the cipher text alone, runs the controls, and then
-prints every figure quoted in these pages next to the freshly computed one. `python code/reproduce.py --check`
-prints the same comparison from the saved results without recomputing anything.
+prints the 21 figures of these pages that the scripts compute, each beside the value quoted.
+`python code/reproduce.py --check` prints the same comparison from the saved results without recomputing
+anything. Figures taken from the sources, such as dates and the register entries, and the size of the text
+that the letter table was counted from are not part of the comparison.
 
 The picture at the top is page 21 of the archive's PDF of the file, with the scanner's border trimmed off:
 <https://web.archive.org/web/20200703151708/https://wbh.wp.mil.pl/c/pages/atts/2020/6/I_301_8_663_1.pdf>

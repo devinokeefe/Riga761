@@ -10,7 +10,8 @@ letters, and the letters occur about as often as they do in ordinary Russian: о
 the telegram is made of the message's own letters in a different order, which is a transposition.
 
 The one letter out of line is х, at 4.3% of the telegram against about 1% in ordinary Russian. That was explained
-once the text could be read. The clerk had put an х before and after every proper name.
+once the text could be read. The clerk had put an х before and after every proper name except the first
+word.
 
 There was outside evidence as well. John Tiltman began work on Soviet diplomatic telegrams for the British in
 1920, and of the first system he met he wrote that "All messages were enciphered by simple columnar transposition
@@ -28,10 +29,12 @@ is sometimes kept too, less and less often as the run goes on, which stops the s
 a poor arrangement (this is simulated annealing). Every width gets ten runs of 200,000 steps, each from a
 different random start.
 
-"Like Russian" is measured with a table of how often each three-letter sequence occurs in 1.1 million letters of
-Soviet diplomatic documents from 1920-21 ([data/russian_trigrams.tsv](../data/README.md)). The score of a text is
-the average log-probability of each letter given the two before it, so scores are negative and closer to zero is
-better:
+"Like Russian" is measured with a table of how often each three-letter sequence occurs in about 1.1 million
+letters of Soviet diplomatic documents from 1920-21 (1,140,169 sequences, as the header of
+[data/russian_trigrams.tsv](../data/README.md) records). During the search an arrangement is judged by the
+probability of each letter given the one before it, taken from the same table, because that can be added up
+strip by strip. The scores reported here are the average log-probability of each letter given the two before
+it, so they are negative and closer to zero is better:
 
 | text | score |
 |---|---|
@@ -60,8 +63,8 @@ The search was run at every width from 2 to 35 ([results/width_scan.txt](../resu
 At 26 columns all ten runs finish on the same key, and the text reads from its first words, для Наркомздрава. No
 other width gives anything readable.
 
-The telegram scores -2.962, some way short of the -2.116 of clean prose. Correcting the 23 wrong letters of the
-Polish copy ([TEXT.md](TEXT.md)) brings it to -2.708. The rest of the gap is telegraphese: 22 х marks, тчк and
+The telegram scores -2.962, some way short of the -2.116 of clean prose. Correcting the 23 letters of the
+Polish copy that do not fit their words ([TEXT.md](TEXT.md)) brings it to -2.708. The rest of the gap is telegraphese: 22 х marks, тчк and
 зпт spelled out, and a good many proper names.
 
 ## Testing the search

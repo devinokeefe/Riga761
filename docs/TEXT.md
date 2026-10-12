@@ -35,8 +35,8 @@ Some notes on the heading:
 - М.Д. stands for мирная делегация, the peace delegation, as the office where the telegram was handed in, and
   267 is its serial number there. Another telegram in the file, of 24 January, is headed "М.Д. № 189 165 сл.",
   where 165 сл. is the word count. The delegation's telegrams that have been printed from the Russian archives
-  are headed in the same way, and their numbers fit the sequence: "Из Риги мир дел № 4" on 2 January 1921 and
-  "Мир. Дел нр. 54" on 7 January.
+  are headed in the same way, and their numbers fit the sequence: "Из Риги мир дел № 4" of 2 January 1921
+  (dated the 3rd in the collection) and "Мир. Дел нр. 54" of 7 January.
 - № 761 is the delegation's own outgoing number. A telegram of 9 February in the same printed collection ends
   "нр 784". (*Советско-польские отношения в 1918-1945 гг.*, vol. 1, Moscow 2017, pp. 356, 359 and 365-366.)
 - Перекоп is the name of the cipher, or of its key. Perekop is the isthmus leading into the Crimea, which the
@@ -55,17 +55,18 @@ belongs to is clear whichever way it is taken.
 | 94 | 3, 4 | н | и | heavily inked | инспектором |
 | 344 | 8, 9 | н | и | pen strokes across the letter | нужно |
 | 383 | 9, 8 | н | и | pen strokes across the letter | согласны |
-| 500 | 12, 4 | т | | a horizontal stroke runs through the letter | работу |
+| 500 | 12, 4 | т | г | a horizontal stroke runs through the letter | работу |
 
 To check the transcription, the scan was read once more from enlarged strips, one typed line at a time, without
 looking at the transcription. The two agree in all 558 letters. The check reading was unsure of 33 letters,
-including the six above, and nearly all of them are a choice between и and н. None of the 33 is one of the
+including the six above. In 24 of them the choice is between и and н, in four of those with a third letter as
+well. None of the 33 is one of the
 letters corrected further down ([data/telegram761_check_reading.txt](../data/telegram761_check_reading.txt)).
 
 ## Deciphered
 
 The cipher clerk wrote the message in rows of 26 letters under the key and copied the columns out in the order
-of the key numbers. Writing the columns back in under their numbers gives the sheet he worked from:
+of the key numbers. Writing the columns back in under their numbers gives the sheet the clerk worked from:
 
 ```
      9  8 23  1 13 17 11 24  6 21  7  4 10 15 26 14 18 22 25 12 19  3 20  5 16  2
@@ -100,7 +101,7 @@ The column under the 1 reads н о д в е р д в о в ..., which is how the
 ## The reading
 
 Here is the text divided into words, with 23 letters corrected (see the next section). The clerk's own marks are
-left in: х before and after a proper name, тчк for a full stop, зпт for a comma.
+left in: х before and after each proper name but the first, тчк for a full stop, зпт for a comma.
 
 > для наркомздрава х семашко х врач пользующий сотрудников мирной делегации х георгий владимирович фрид х выразил
 > желание переехать в х россию х на постоянную работу тчк он имеет за собой двадцать три года практики зпт был в
@@ -146,8 +147,9 @@ Some notes on the wording:
 
 ## The 23 corrections
 
-Twenty-three letters of the deciphered text are wrong. They fall in 20 words, none of which is in any doubt. All
-23 letters are clear on the scan, so these are mistakes on the sheet itself and not misreadings of it.
+Twenty-three letters of the deciphered text do not fit their words. They fall in 20 words, none of which is in
+any doubt. All 23 letters are clear on the scan, so they stand on the sheet itself and are not misreadings of
+it.
 
 | place | as typed | read as | letter |
 |---|---|---|---|

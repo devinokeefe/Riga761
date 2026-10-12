@@ -2,7 +2,7 @@
 
 The model is a table of how often each run of three letters occurs in a body of Russian diplomatic prose
 (data/russian_trigrams.tsv). A text is scored by the mean natural logarithm of the probability of each letter given
-the two before it. Running Russian scores about -2.1 and the same letters in random order about -4.8.
+the two before it. Running Russian scores about -2.1, and the letters of telegram no. 761 in random order -5.1.
 """
 import math
 import os
